@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      overflow: hidden;
+    }
+    .middium-box, .small-box{
+        display: none;
+    }
+    .big-box {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .big-box .box-image img {
+        width: 100%;
+    }
+    .content1 i, .content7 i {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .dna {
+        display: none;
+    }
+    .nav-ses2 {
+        display: none;
+    }
+  }
